@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ced4e58-b361-41a7-89e4-09a3b736c528" name="Default Changelist" comment="" />
+    <list default="true" id="0ced4e58-b361-41a7-89e4-09a3b736c528" name="Default Changelist" comment="先搭框架">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +16,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\springboot\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,11 +44,13 @@
     </option>
   </component>
   <component name="ProjectId" id="1bmnqWyzqx56EGnbsItQo7D4X7O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -46,6 +62,13 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager" selected="Spring Boot.WebApplication">
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zgq.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommonsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="commons" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zgq.commons.CommonsApplication" />
@@ -98,14 +121,51 @@
       <option name="presentableId" value="Default" />
       <updated>1589246327279</updated>
       <workItem from="1589246330571" duration="8204000" />
-      <workItem from="1589264270601" duration="1655000" />
+      <workItem from="1589264270601" duration="4404000" />
     </task>
+    <task id="LOCAL-00001" summary="先搭框架">
+      <created>1589267000077</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589267000078</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="先搭框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="先搭框架" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="459" y="119" key="CommitChangelistDialog2" timestamp="1589267451249">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="459" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1589267451249" />
     <state x="740" y="283" key="FileChooserDialogImpl" timestamp="1589266762234">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -142,17 +202,25 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589253191498" />
-    <state x="463" y="170" key="SettingsEditor" timestamp="1589266731594">
+    <state x="463" y="170" key="SettingsEditor" timestamp="1589268667742">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="463" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1589266731594" />
+    <state x="463" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1589268667742" />
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2" timestamp="1589269043679">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589269043679" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1589247702325">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589247702325" />
-    <state x="334" y="233" key="new project wizard" timestamp="1589253075053">
+    <state x="754" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589267079091">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="334" y="233" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1589253075053" />
+    <state x="754" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589267079091" />
+    <state x="334" y="233" key="new project wizard" timestamp="1589269227096">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="334" y="233" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1589269227096" />
   </component>
 </project>
